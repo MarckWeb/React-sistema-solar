@@ -1,0 +1,22 @@
+.articulos-planetas{
+    border: 1px solid rgba(255, 255, 255, 0.707);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 7px 2px white;
+}
+
+.texto{
+    color: orangered;
+}
+
+.imagen-planeta{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    transform: scale(0.5);
+    transition: 1s ease;
+}
+
+.articulos-planetas:hover .imagen-planeta{
+    transform: scale(0.9);
+}
